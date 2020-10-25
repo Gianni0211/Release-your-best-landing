@@ -1,0 +1,175 @@
+/*general*/
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Hind Madurai", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+::root {
+  --main-color: #66c7ff;
+  --second-color: white;
+  --accent-color: #e52421;
+}
+
+.bg-main {
+  background-color: #66c7ff;
+}
+
+.bg-second {
+  background-color: var(--second-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.text-main {
+  color: #66c7ff;
+}
+
+.text-accent {
+  color: #e52421;
+}
+/*Header*/
+.logo {
+  height: 80px;
+}
+.header {
+  height: 70vh;
+  background: url("/media/1.\ Banner.jpg");
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cta {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: white;
+  color: #e52421;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1.5px solid #66c7ff;
+  transition: 0.5s;
+}
+
+.cta:hover {
+  text-decoration: none;
+  color: #e52421;
+  background-color: #66c7ff;
+  border: 1.5px solid #e52421;
+  transform: scale(1.1);
+}
+.header-text {
+  text-shadow: black;
+}
+/*End Header*/
+
+/*Audience towards*/
+
+.img-body {
+  filter: grayscale(70%);
+  border-radius: 50%;
+  margin-top: 40px;
+  border: 5px solid #e52421;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.img-body:hover {
+  padding: 0;
+  filter: grayscale(0);
+}
+
+/*End Audience Towards*/
+/*Audience Away*/
+.custom-shadow {
+  box-shadow: 10px 1px 10px 2px rgba(94, 88, 88, 0.426);
+}
+.cont-ul {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+.ul-audience {
+  margin-top: 30px;
+  list-style: none;
+}
+.li-audience {
+  margin: 10px;
+}
+
+/*End Audience Away*/
+
+/*Subject*/
+
+.pos {
+  position: relative;
+  top: -7px;
+}
+.tick-title {
+  border-bottom: 1px solid rgba(71, 69, 69, 0.426);
+  padding-bottom: 20px;
+}
+
+/*End Subject*/
+
+/*Me*/
+
+.img-profile {
+  max-height: 350px;
+}
+/*End Me*/
+
+/*Counter*/
+.cta-counter {
+  padding: 2px;
+}
+
+/*Registration forms*/
+
+.form {
+  box-shadow: 5px 5px 5px rgba(71, 69, 69, 0.426);
+  color: #e52421;
+}
+
+.input {
+  margin-left: 20px;
+  width: 250px;
+  border-bottom: 2px solid #66c7ff;
+  transition: 1s;
+}
+
+.input:hover {
+  width: 400px;
+}
+.input:focus {
+  outline: none;
+}
+
+.cta-form {
+  margin: 8px;
+  padding: 5px;
+}
+.form-title {
+  border-bottom: 2px solid #66c7ff;
+  margin-bottom: 20px;
+}
+
+/*Footer*/
+
+.footer {
+  height: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
